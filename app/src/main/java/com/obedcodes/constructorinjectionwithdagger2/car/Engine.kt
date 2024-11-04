@@ -9,7 +9,7 @@ class Engine @Inject constructor(val piston :Piston){
         Log.i("MYTAG", "Engine created")
     }
 
-    fun isEngine(){
-        Log.i("MYTAG","Engine is working")
+    fun getEngine(){
+        piston.isPiston()
     }
 }

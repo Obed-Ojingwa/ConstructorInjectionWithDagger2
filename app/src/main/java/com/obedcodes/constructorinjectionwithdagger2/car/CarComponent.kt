@@ -5,5 +5,5 @@ import dagger.Component
 @Component
 interface CarComponent {
 
-    fun getCarComponent() : Car
+    fun getCar() : Car
 }
